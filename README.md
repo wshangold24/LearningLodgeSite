@@ -1,1 +1,1 @@
-# LearningLodgeSite
+# Blank Starter Code

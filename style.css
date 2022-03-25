@@ -1,0 +1,1056 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=IBM+Plex+Serif:wght@300&family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&family=Quicksand:wght@600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html {
+    background-color: #FDFBF7;
+    /* width: 100%; */
+    /* overflow-x:hidden; */
+}
+
+body {
+    margin: 0 0 0 0; 
+    background-color: #FDFBF7;
+    /* width: 100vw; */
+    max-width: 100vw;
+    /* display: flex;
+    flex-wrap: wrap; */
+    overflow-x:hidden;
+}
+
+
+
+
+/* HEADER SECTION */
+
+/* .page-header {
+    position: fixed;
+} */
+
+
+.navbar .fixed-top {
+    background: rgba(253, 251, 247, 0.94);
+    margin-top: 0rem;
+    /* border-bottom: 0.5px groove #1C3A52; */
+    /* border-style: groove; */
+}
+
+.navbar-brand {
+    /* margin-right: 1rem; */
+    /* margin-left: 1rem; */
+    /* background-color: #FDFBF7; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: left; */
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 5rem;
+}
+
+
+
+/* .navbar h1 {
+    text-align: center;
+    width: 100%;
+    width: 20rem;
+    font-family: 'Quicksand', sans-serif;
+    border: 1px solid red;
+} */
+
+.navbar-brand #ll_logo {
+    font-family: 'Quicksand', sans-serif;
+    width: 20rem;
+    font-size: 200%;
+    font-weight: 500;
+    color: #1C3A52;
+    text-decoration: none;
+    /* margin-right: 40%; */
+    margin-right: 40vw;
+    /* background-color: #FDFBF7; */
+    
+}
+
+.navbar-brand #ll_logo:hover {
+    color: #4795D1
+}
+
+.navbar-brand #ll_logo ~ a {
+    margin-right: 1rem;
+    /* border: 1px solid red; */
+    /* bottom: 1rem; */
+    justify-content: right;
+}
+
+
+.navbar-brand #ll_logo img {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+.navbar-brand .btn-dark {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1vw;
+    background-color: #1C3A52;
+    color: #FDFBF7;
+}
+
+.navbar-brand .btn-dark:hover {
+    background-color: #36719E;
+    border-color: #36719E;
+    /* font-size: 85%; */
+    font-size: 1.1vw;
+    /* color: #1C3A52; */
+}
+
+.navbar-brand .btn-light {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1vw;
+    background-color:#36719E;
+    color:#FDFBF7;
+}
+
+.navbar-brand .btn-light:hover {
+    background-color:#4795D1;
+    font-size: 1.1vw;
+    border-color: #4795D1;
+    color:#FDFBF7;
+    /* text-decoration:underline dotted 0.1px; */
+    /* font-size: 85%; */
+    /* color: #1C3A52; */
+}
+
+/* .navbar-brand #contact_us_button {
+    background-color: #8BB7D9;
+    border-color: #8BB7D9;
+}
+
+.navbar-brand #contact_us_button:hover {
+    background-color: #36719E;
+    border-color: #36719E;
+} */
+
+.navbar-brand div {
+    /* border: 1px solid red; */
+    margin-left: 0rem;
+    margin-right: 0rem;
+    width: 100vw;
+}
+
+@media(max-width: 1250px) {
+    .navbar-brand #ll_logo {
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+
+    .navbar-brand #ll_logo + .btn, .navbar-brand #ll_logo + .btn + .btn, .navbar-brand #ll_logo + .btn + .btn + .btn {
+        display: none;
+    }
+}
+
+
+
+/* Toggler */
+
+/* .navbar-toggler-icon {
+    background-color: #1C3A52;
+    color:#1C3A52;
+    border: 1px solid red;
+} */
+
+
+
+/* MAIN SECTION */
+
+.container-fluid {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    /* border: 1px solid red; */
+    padding-top: 15rem;
+    padding-bottom: 30vh;
+    color: #1C3A52;
+    background-color:#FDFBF7;
+    /* width: 100vw; */
+    min-width: 100vw;
+    /* overflow-x: hidden; */
+    overflow-x: visible;
+    /* display:block; */
+}
+
+.jumbotron {
+    width: 100%;
+}
+
+.container-fluid h1 {
+    /* font-size: 500%; */
+    font-size: 8vw;
+    font-weight: 500;
+    /* width:fit-content; */
+    width:100%;
+    color: #1C3A52;
+    background-color: inherit;
+    margin-bottom: 5vh;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid red; */
+}
+
+.container-fluid h2 {
+    margin-bottom: 10vh;
+    font-weight: 400;
+    font-size: 2.5vw;
+}
+
+.container-fluid .light_color {
+    color:#4795D1;
+}
+
+/* .container-fluid #tutor_arrow {
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    z-index: 100;
+    left: 28rem;
+    left: 25%;
+} */
+
+.container-fluid #sign_up_btn_1 {
+    /* font-size: 200%; */
+    font-size: 2vw;
+    margin-top: 10vh;
+    display: inline-block;
+    /* margin-bottom: 25rem; */
+    /* margin-bottom: 30vh; */
+    /* margin-right: 50%; */
+    /* margin-right: 5%; */
+    margin-right: 10vw;
+    /* margin-left: 7%; */
+    /* width: 20rem; */
+    width:max-content;
+    color:#FDFBF7;
+    background-color: #344552;
+    box-shadow: 0.5rem 0.5rem #8BB7D9;
+    /* border: 1px solid red; */
+    /* overflow: hidden; */
+}
+
+.container-fluid #sign_up_btn_1:hover {
+    /* background-color: #344552; */
+    /* color:#FDFBF7; */
+    box-shadow: 0.8rem 0.8rem #8BB7D9;
+}
+
+/* .container-fluid #student_arrow {
+    position: absolute;
+    width: 10rem;
+    height: 17rem;
+    z-index: 101;
+    right: 36.5rem;
+    right: 35%;
+} */
+
+.container-fluid #sign_up_btn_2 {
+    /* font-size: 200%; */
+    font-size: 2vw;
+    margin-top: 10vh;
+    /* margin-bottom: 25rem; */
+    /* margin-bottom: 30vh; */
+    /* margin-right: 4rem; */
+    /* margin-right: 7%; */
+    /* margin-left: 5%; */
+    display: inline-block;
+    margin-left: 10vw;
+    /* width: 25rem; */
+    width:max-content;
+    /* color:#1C3A52; */
+    color:#FDFBF7;
+    /* background-color:#8BB7D9; */
+    background-color: #36719E;
+    box-shadow: 0.5rem 0.5rem #344552;
+    /* border: 1px solid red; */
+    /* z-index: 102; */
+    /* overflow: hidden; */
+}
+
+.container-fluid #sign_up_btn_2:hover {
+    /* background-color: #344552; */
+    /* color:#FDFBF7; */
+    box-shadow: 0.8rem 0.8rem #344552;
+
+}
+
+
+@media(max-width: 835px) { 
+    .container-fluid #sign_up_btn_1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0vh;
+    }
+    .container-fluid #sign_up_btn_2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0vh;
+        margin-top: 4vh;
+        /* padding-bottom: 5rem; */
+    }
+    .container-fluid {
+        padding-bottom: 15vh;
+    }
+
+    .container-fluid h1 {
+
+    }
+}
+
+
+/* Tutor colleges section */
+
+.container-2 {
+    background-color: #FDFBF7;
+    /* margin-bottom: 10rem; */
+    width: 100vw;
+    /* border: 1px solid green; */
+}
+
+.container-2 .map_text {
+    min-width: 20rem;
+    z-index: 500;
+}
+
+.container-2 h2, .container-2 h3 {
+    /* border: 1px solid red; */
+    background-color: #FDFBF7;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#1C3A52;
+    /* font-size: 250%; */
+    font-size: 3vw;
+    width: 100%;
+}
+
+.container-2 h2 span {
+    font-weight: 700;
+    /* color:#1C3A52; */
+}
+
+.container-2 img {
+    /* height: 35rem; */
+    /* width: 50rem; */
+    width: 70vw;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FDFBF7;
+
+}
+
+.container-2 .map_text, .container-2 img {
+    /* margin-left: 4%; */
+    /* margin-right: 10%; */
+    margin-top: auto;
+    margin-bottom: auto;
+    /* border: 1px solid red; */
+    /* margin-left: 25%; */
+}
+
+
+
+/* Subjects we offer section */
+/* TODO */
+
+
+
+
+/* Students/Tutors Section */
+
+.container-4 {
+    background-color: #FDFBF7;
+    /* font-family: 'Bitter', serif; */
+    /* font-family: 'Noto Serif', serif; */
+    font-family: 'Bitter', serif;
+    padding-top: 10rem;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 85%; */
+}
+
+.container-4 .row {
+    background-color: #FDFBF7;
+    margin-bottom: 10rem;
+}
+
+.container-4 .col-sm-7, .container-4 .col-sm-3 {
+    /* text-align: center; */
+    text-align: justify;
+    text-justify: inter-word; /* Source: https://www.w3schools.com/cssref/css3_pr_text-justify.asp */
+    /* font-family: 'Bitter', serif; */
+    border-radius: .3rem;
+    /* border: .01rem solid #344552; */
+    height: 50rem;
+    box-shadow: 0.5rem 0.5rem #344552;
+}
+
+.container-4 .col-sm-7 > h1 {
+    margin-top: 1rem;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom:2.5rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container-4 .col-sm-7 {
+    margin-left: 5%;
+    margin-right: 5%;
+    /* height: 27rem; */
+    height:fit-content;
+    /* min-width: 50rem; */
+    width: 60vw;
+}
+
+.container-4 .col-sm-3 {
+    min-width: 25rem;
+    /* width: 25vw; */
+}
+
+
+.container-4 .col-sm-7 p a {
+    /* text-decoration: none; */
+    /* color:#8BB7D9; */
+    color:#FDFBF7;
+    font-weight:400;
+}
+
+/* .container-4 .col-sm-7 {
+    margin-left: 5%;
+    margin-right: 5%;
+} */
+
+@media(max-width: 576pt) {
+    .container-4 .col-sm-3 {
+        display: none;
+    }
+
+    .container-4 .col-sm-7 > h1 {
+        padding-bottom: 0rem;
+    }
+
+    .container-4 .col-sm-7 > p span {
+        display: none;
+    }
+    .container-4 .row {
+        margin-bottom: 4rem;
+    }
+}
+
+
+
+/* STUDENT SECTION */
+
+#student_section {
+    /* background-color: #8BB7D9; */
+    background-color: #36719E;
+    /* border: 1px solid red; */
+    color: #FDFBF7;
+    margin-left: 3vw;
+}
+
+#student_anchor { /* Source: https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header */
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
+#student_section p {
+    /* font-size: 150%; */
+    font-size: 1.9vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* #student_section p a {
+    color:#8BB7D9;
+    color:#FDFBF7;
+    font-style: underline;
+} */
+
+#arrow_1 { /* Arrows are temporarily disabled */
+    position: absolute;
+    width: 15rem;
+    height: 20rem;
+    top: 173rem;
+    /* left: 35rem; */
+    left: 35%;
+    display:none;
+}
+
+#student_sign_up {
+    /* background-color: #8BB7D9; */
+    background-color: #36719E;
+}
+
+#student_sign_up iframe {
+    width: 100%;
+    height: 95%;
+    margin-top: 4%;
+}
+
+
+
+/* TUTOR SECTION */
+
+#tutor_section {
+    background-color: #344552;
+    color: #FDFBF7;
+    box-shadow: 0.5rem 0.5rem #8BB7D9;
+    margin-left: 3vw;
+}
+
+.container-4 .row + .row {
+    margin-bottom: 0rem;
+    padding-bottom: 10rem;
+}
+
+#tutor_anchor { 
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
+#tutor_section p {
+    /* font-size: 150%; */
+    font-size: 1.9vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#arrow_2 {
+    position: absolute;
+    width: 15rem;
+    height: 20rem;
+    top: 233rem;
+    /* left: 35rem; */
+    left: 35%;
+    display:none;
+}
+
+#tutor_sign_up {
+    background-color: #344552;
+    box-shadow: 0.5rem 0.5rem #8BB7D9;
+}
+
+#tutor_sign_up iframe {
+    width: 100%;
+    height: 95%;
+    margin-top: 4%;
+}
+
+
+@media(max-width: 1180pt) {
+    #student_section, #tutor_section {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+
+/* Bottom of page section */
+
+.container-5 {
+    background-color:#36719E;
+    font-family: 'Quicksand', sans-serif;
+    /* height: 20rem; */
+    height:fit-content;
+    width:100vw;
+    /* margin-top:0rem; */
+    color:#FDFBF7;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+/* bottom left */
+.container-5 #bottom_left {
+    /* font-family: 'Quicksand', sans-serif; */
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+}
+
+.container-5 #bottom_left h1 {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    font-size: 330%;
+}
+
+.container-5 #bottom_left p {
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+
+.container-5 #bottom_left a {
+    color:#FDFBF7;
+    /* border: 1px solid red; */
+    /* margin-top: 2rem; */
+    padding-left: 1rem;
+    margin-top: 0.7rem;
+    display: block;
+}
+
+/* bottom right */
+.container-5 #bottom_right {
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+    /* padding-right: 4rem; */
+    width: fit-content;
+}
+
+.container-5 #bottom_right h2 {
+    margin-top: 2rem;
+}
+
+.container-5 #bottom_right a {
+    color:#FDFBF7;
+    /* border: 1px solid red; */
+    margin-top: 1rem;
+    padding-left: 1rem;
+    display: block;
+    text-decoration: none;
+}
+
+.container-5 #bottom_right a:hover {
+    text-decoration: underline;
+}
+
+@media(max-width: 796pt) {
+    .container-5 #bottom_left {
+        /* margin-left: auto;
+        margin-right: auto; */
+        margin-right: -7rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT PAGE */
+
+
+#group_founders {
+    background-color: #FDFBF7;
+    /* width: 100%; */
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    width: inherit;
+    /* border: 1px solid red; */
+}
+
+#group_founders h1 {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FDFBF7;
+    margin-top: 10rem;
+    font-size: 400%;
+    text-align: center;
+    width: 100%;
+    color:#4795D1;
+    /* border: 1px solid red; */
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+
+#group_founders .row img {
+    width: 100%;
+    height: inherit;
+    min-width: 100pt;
+    padding-top: 1vh;
+}
+
+#group_founders .row .col-sm-3 {
+    margin-left: 0rem;
+    /* border: 1px solid red; */
+    padding-right: 1rem;
+}
+
+#group_founders .row .col-sm-3 h2 {
+    padding-top: 4rem;
+    font-size: 270%;
+    color:#1C3A52;
+    padding-bottom: 2rem;
+}
+
+/* founder descriptions */
+
+#group_founders .row .col-sm-5 {
+    margin: 3.5%;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Bitter', serif;
+    font-weight:150%;
+    color:#1C3A52;
+    padding-right: 1rem;
+}
+
+#group_founders .row .col-sm-5 p span {
+    font-weight:900;
+    color:#36719E;
+}
+
+@media(max-width: 800pt) {
+    #group_founders .row .col-sm-3 h2 {
+        font-size: 200%;
+    }
+
+    #group_founders .row .col-sm-5 {
+        padding-left: auto;
+        padding-right: auto;
+        width:fit-content;
+    }
+}
+
+/* Who We Are Section */
+
+#group_founders #who_we_are {
+    /* background-color:#344552; */
+    /* height: 60rem; */
+    height: fit-content;
+    border-top: 0.1px groove #344552;
+    border-bottom: 0.1px groove #344552;
+    padding-bottom: 2rem;
+    color:#1C3A52;
+}
+
+#group_founders #who_we_are h2 {
+    padding-top: 10rem;
+    /* font-size: 330%; */
+    font-size: 4vw;
+}
+
+#group_founders #who_we_are .col-sm-8 {
+    padding-top: 3rem;
+}
+
+#group_founders #who_we_are p {
+    font-family: 'Bitter', serif;
+    text-align: justify;
+    text-justify: inter-word;
+    /* font-size: 180%; */
+    font-size: 2vw;
+    padding-top: 2rem;
+    padding-right: 4rem;
+    padding-left: 1rem;
+}
+
+#group_founders #who_we_are p span {
+    color:#4795D1;
+    font-weight: 600;
+    
+}
+
+@media(max-width: 800pt) {
+    #group_founders #who_we_are p {
+        font-size: 100%;
+        /* text-align: center; */
+    }
+
+    #group_founders #who_we_are h2 {
+        font-size: 200%;
+        padding-top: 5rem;
+    }
+}
+
+
+/* RESOURCES PAGE */
+
+#resources_list {
+    background-color: #FDFBF7;
+    /* width: 100%; */
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    width: inherit;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+#resources_list h1 {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FDFBF7;
+    margin-top: 10rem;
+    font-size: 400%;
+    text-align: center;
+    width: 100%;
+    color:#4795D1;
+    /* border: 1px solid red; */
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 6rem;
+}
+
+#resources_list .jumbotron p {
+    text-align: left;
+    /* border: 1px solid red; */
+    margin-left: 7%;
+    font-size: 120%;
+    color:#1C3A52;
+}
+
+.jumbotron span {
+    color:#4795D1;
+    font-weight: 600;
+}
+
+#resources_list div > ul > li {
+    background-color: #FDFBF7;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 8rem;
+    width:fit-content;
+    padding: 0.5rem;
+
+}
+
+#resources_list a + ul > li {
+    background-color: #FDFBF7;
+    /* border: 0.5px groove #1C3A52; */
+    padding: 0.4rem;
+    /* border: none; */
+}
+
+#resources_list ul a {
+    color:#4795D1;
+    font-size: 120%;
+}
+
+#resources_list ul a:hover {
+    font-weight: 600;
+    color:#36719E;
+}
+
+#resources_list li a + span {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#resources_list ul + p {
+    width: 60%;
+    height: inherit;
+    margin-left: 7%;
+    text-align: left;
+    font-size: 120%;
+    color:#1C3A52;
+    padding-bottom: 5rem;
+}
+
+#resources_list ul + p a {
+    color:#4795D1;
+}
+
+#resources_list ul + p a:hover {
+    /* font-weight: 500; */
+    color:#36719E;
+}
+
+@media(max-width: 800pt) {
+    #resources_list div > ul > li {
+        margin-left: 3rem;
+        text-align: left;
+    
+    }
+    #resources_list h1 {
+        font-size: 350%;
+    }
+}
+
+@media(max-width: 600pt) {
+    #resources_list div > ul > li {
+        margin-left: 1rem;
+    
+    }
+    #resources_list ul + p, #resources_list .jumbotron p {
+        font-size: 100%;
+    }
+
+    #resources_list h1 {
+        font-size: 250%;
+    }
+
+}
+
+
+
+/* GUIDELINES PAGE */
+
+#guidelines_list {
+    padding-bottom: 0rem;
+}
+
+#guidelines_list h1 {
+    margin-bottom: 4.5rem;
+    font-size: 7vw;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#guidelines_list h1 + h2 {
+    color:#36719E;
+    margin-bottom: 3rem;
+    font-size: 3vw;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#guidelines_list h2 + p {
+    text-align: left;
+    margin-left: 6%;
+    font-size: 2vw;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#guidelines_list h3 {
+    /* font-size: 35px; */
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+#guidelines_list ol {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 7%;
+    padding-bottom: 1rem;
+    width: 95vw;
+}
+
+#guidelines_list ol li {
+    /* font-size:35px; */
+    font-size: 3vw;
+    padding-right: 3rem;
+}
+
+#guidelines_list h4 {
+    /* font-size:25px; */
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+#guidelines_list p {
+    /* font-size:20px; */
+    font-size: 1.2vw;
+    font-family: 'Bitter', serif;
+}
+
+#guidelines_list p a {
+    color:#4795D1;
+    text-decoration: none;
+}
+
+#guidelines_list p a:hover {
+    text-decoration: underline;
+}
+
+.g_list_items ol + p {
+    margin-left: 6%;
+    text-align: left;
+    /* font-size: 25px; */
+    font-size: 2vw;
+    padding-bottom: 4rem;
+}
+
+@media (max-width: 800px) {
+    #guidelines_list h1 {
+        /* font-size: 300%; */
+    }
+
+    #guidelines_list h1 + h2, #guidelines_list h3 {
+        /* font-size: 150%; */
+    }
+    #guidelines_list p, #guidelines_list ol li,  #guidelines_list h4 {
+        /* font-size:12px; */
+    }
+
+    #guidelines_list h2 + p {
+        /* font-size: 90%; */
+    }
+
+    
+    #guidelines_list ol {
+        text-align: left;
+        margin-left: 2%;
+    }
+}
+
+
+
+/* MEDIA BREAK POINTS */
+
+/* landing page */
+/* @media (max-width: 830px) {
+    .jumbotron a {
+        display: block;
+        margin-top:0px;
+        margin-bottom: 0px;
+    }
+
+    .jumbotron {
+        padding: none;
+    }
+} */
+
+
+
+/* Tutor colleges */
+
+/* Tutor/Student sign up section */
+@media (max-width: 1350px) {
+    #arrow_1 {
+        display:none;
+    }
+    #arrow_2 {
+        display:none;
+    }
+}
+
+@media (max-width: 1308px) {
+
+    .container-4 .col-sm-3 {
+        position:relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+    }
+
+}
+
+@media (max-width: 1150px) {
+    .container-4 .col-sm-7 {
+        position:relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
