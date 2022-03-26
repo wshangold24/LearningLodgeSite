@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 html {
-    background-color: #FDFBF7;
+    /* background-color: #FDFBF7; */
     /* width: 100%; */
     /* overflow-x:hidden; */
 }
@@ -20,6 +20,28 @@ body {
     flex-wrap: wrap; */
     overflow-x:hidden;
 }
+/* 
+.fade {
+    margin: 50px;
+    padding: 50px;
+    opacity: 1;
+} */
+
+/* .scrollFade {
+    opacity: 1;
+    pointer-events: all;
+  }
+  .scrollFade--hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .scrollFade--visible {
+    opacity: 1;
+    pointer-events: all;
+  }
+  .scrollFade--animate {
+    transition: opacity 0.4s ease-in-out;
+  } */
 
 
 
@@ -1040,11 +1062,17 @@ body {
     margin-right: auto;
 }
 
+#news_title {
+    border-bottom: 1px solid #1C3A52;
+}
+
 /* The Record */
 
 #the_record {
     /* background-color: #4795D1; */
     width: 100vw;
+    
+    
 
 }
 
