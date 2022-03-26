@@ -685,13 +685,15 @@ body {
     padding-top: 0rem;
     padding-bottom: 0rem;
     width: inherit;
+    margin-top: 0rem;
     /* border: 1px solid red; */
 }
 
 #group_founders h1 {
     font-family: 'Quicksand', sans-serif;
     background-color: #FDFBF7;
-    margin-top: 10rem;
+    /* margin-top: 10rem; */
+    padding-top: 10rem;
     font-size: 400%;
     text-align: center;
     width: 100%;
@@ -818,7 +820,7 @@ body {
 #resources_list h1 {
     font-family: 'Quicksand', sans-serif;
     background-color: #FDFBF7;
-    margin-top: 10rem;
+    padding-top: 10rem;
     font-size: 400%;
     text-align: center;
     width: 100%;
