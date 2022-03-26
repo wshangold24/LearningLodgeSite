@@ -331,11 +331,9 @@ body {
     }
     .container-fluid {
         padding-bottom: 15vh;
+        padding-top: 11vh;
     }
 
-    .container-fluid h1 {
-
-    }
 }
 
 
@@ -1097,6 +1095,7 @@ body {
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 #news_title {
@@ -1121,6 +1120,12 @@ body {
         padding-top: 0rem;
         padding-bottom: 0rem;
         margin-top: 0rem;
+    }
+
+    #news_list #the_record .row .col-sm-4 h1, #kmov_news .row .col-sm-4 h1, 
+    #ltb .row .col-sm-4 h1, #stfl .row .col-sm-4 h1, 
+    #kvl .row .col-sm-4 h1 {
+       font-size: 200rem;
     }
 
     #the_record .row .col-sm-4, #kmov_news .row .col-sm-4, 
