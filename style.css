@@ -265,7 +265,7 @@ body {
 
 .container-fluid #sign_up_btn_1 {
     /* font-size: 200%; */
-    font-size: 2vw;
+    font-size: 2.5vw;
     margin-top: 10vh;
     display: inline-block;
     /* margin-bottom: 25rem; */
@@ -300,7 +300,7 @@ body {
 
 .container-fluid #sign_up_btn_2 {
     /* font-size: 200%; */
-    font-size: 2vw;
+    font-size: 2.5vw;
     margin-top: 10vh;
     /* margin-bottom: 25rem; */
     /* margin-bottom: 30vh; */
@@ -335,13 +335,17 @@ body {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 0vh;
+        font-size: 4vw;
+        width: max-content;
     }
     .container-fluid #sign_up_btn_2 {
         display: block;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 0vh;
-        margin-top: 4vh;
+        margin-top: 4vh;        
+        font-size: 4vw;
+        width: max-content;
         /* padding-bottom: 5rem; */
     }
     .container-fluid {
@@ -354,21 +358,26 @@ body {
         /* font-size: 10vw; */
         padding-top: 5rem;
     }
-}
-
-@media (max-width: 700px) {
-    .container-fluid #sign_up_btn_1 {
-        font-size: 3vw;
-        width: max-content;
-    }
-    .container-fluid #sign_up_btn_2 {
-        font-size: 3vw;
-        width: max-content;
-    }
     .container-fluid h2 {
         /* margin-bottom: 10vh; */
         /* font-weight: 400; */
-        font-size: 3vw;
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 700px) {
+    /* .container-fluid #sign_up_btn_1 {
+        font-size: 4vw;
+        width: max-content;
+    }
+    .container-fluid #sign_up_btn_2 {
+        font-size: 4vw;
+        width: max-content;
+    } */
+    .container-fluid h2 {
+        /* margin-bottom: 10vh; */
+        /* font-weight: 400; */
+        /* font-size: 4vw; */
     }
     .container-fluid h1 {
         /* margin-bottom: 10vh; */
@@ -702,11 +711,11 @@ body {
 
 @media(max-width: 576pt) {
     #student_section p, #tutor_section p {
-        font-size: 2.5vw;
+        font-size: 3.5vw;
     }
 
     #student_section h1, #tutor_section h1 {
-        font-size: 5.5vw;
+        font-size: 6.5vw;
     }
 }
 
