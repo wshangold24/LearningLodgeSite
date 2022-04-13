@@ -58,7 +58,9 @@ body {
 
 
 .navbar .fixed-top {
-    background: rgba(253, 251, 247, 0.94);
+    /* background: rgba(253, 251, 247, 0.94); */
+    background-color:#8BB7D9;
+    opacity: .94;
     margin-top: 0rem;
     /* border-bottom: 0.5px groove #1C3A52; */
     /* border-style: groove; */
@@ -468,10 +470,10 @@ body {
 
 .container-4 .row {
     background-color: #FDFBF7;
-    margin-bottom: 10rem;
+    padding-bottom: 2rem;
 }
 
-.container-4 .col-sm-7, .container-4 .col-sm-3 {
+.container-4 .col-sm-10, .container-4 .col-sm-3 {
     /* text-align: center; */
     text-align: justify;
     text-justify: inter-word; /* Source: https://www.w3schools.com/cssref/css3_pr_text-justify.asp */
@@ -482,7 +484,7 @@ body {
     box-shadow: 0.9vw 0.9vw #344552;
 }
 
-.container-4 .col-sm-7 > h1 {
+.container-4 .col-sm-10 > h1 {
     margin-top: 1rem;
     font-weight: 600;
     padding-left: 1rem;
@@ -491,13 +493,13 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-.container-4 .col-sm-7 {
-    margin-left: 5%;
-    margin-right: 5%;
+.container-4 .col-sm-10 {
+    margin-left: 5vw;
+    margin-right: 5vw;
     /* height: 27rem; */
     height:fit-content;
     /* min-width: 50rem; */
-    width: 60vw;
+    width: 90vw;
     
 }
 
@@ -513,11 +515,15 @@ body {
 }
 
 
-.container-4 .col-sm-7 p a {
+.container-4 .col-sm-10 p a {
     /* text-decoration: none; */
     /* color:#8BB7D9; */
     color:#FDFBF7;
     font-weight:400;
+}
+
+#student_row, #tutor_row {
+    padding-bottom: 10rem;
 }
 
 /* .container-4 .col-sm-7 {
@@ -576,7 +582,7 @@ body {
     background-color: #36719E;
     /* border: 1px solid red; */
     color: #FDFBF7;
-    margin-left: 3vw;
+    /* margin-left: 3vw; */
 }
 
 #student_anchor { /* Source: https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header */
@@ -612,6 +618,7 @@ body {
 #student_sign_up {
     /* background-color: #8BB7D9; */
     background-color: #36719E;
+    height: 90vh;
 }
 
 
@@ -658,13 +665,14 @@ body {
     background-color: #344552;
     color: #FDFBF7;
     box-shadow: 0.9vw 0.9vw #8BB7D9;
-    margin-left: 3vw;
+    /* margin-left: 3vw; */
+    padding-top: 1.5rem;
 }
 
-.container-4 .row + .row {
+/* .container-4 .row +.row {
     margin-bottom: 0rem;
     padding-bottom: 10rem;
-}
+} */
 
 #tutor_anchor { 
     display: block;
@@ -676,8 +684,8 @@ body {
 #tutor_section p {
     /* font-size: 150%; */
     font-size: 1.9vw;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 #arrow_2 {
@@ -693,17 +701,18 @@ body {
 #tutor_sign_up {
     background-color: #344552;
     box-shadow: 0.6vw 0.6vw #8BB7D9;
+    height: 90vh;
 }
 
 #tutor_sign_up iframe {
     width: 100%;
     height: 95%;
-    margin-top: 4%;
+    margin-top: 2%;
 }
 
 
 @media(max-width: 1180pt) {
-    #student_section, #tutor_section {
+    #student_section, #tutor_section, #tutor_sign_up, #student_sign_up {
         margin-left: auto;
         margin-right: auto;
     }
