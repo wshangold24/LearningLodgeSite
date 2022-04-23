@@ -58,8 +58,8 @@ body {
 
 
 .navbar .fixed-top {
-    /* background: rgba(253, 251, 247, 0.94); */
-    background-color:#8BB7D9;
+    background: rgba(253, 251, 247, 0.94);
+    /* background-color:#8BB7D9; */
     opacity: .94;
     margin-top: 0rem;
     /* border-bottom: 0.5px groove #1C3A52; */
@@ -69,7 +69,7 @@ body {
 .navbar-brand {
     /* margin-right: 1rem; */
     /* margin-left: 1rem; */
-    /* background-color: #FDFBF7; */
+    background-color: #FDFBF7;
     display: flex;
     flex-wrap: wrap;
     /* justify-content: left; */
@@ -98,7 +98,7 @@ body {
     text-decoration: none;
     /* margin-right: 40%; */
     margin-right: 40vw;
-    /* background-color: #FDFBF7; */
+    background-color: #FDFBF7;
     
 }
 
