@@ -34,18 +34,18 @@ body {
 .scrollFade {
     opacity: 1;
     pointer-events: all;
-  }
-  .scrollFade--hidden {
-    opacity: 0;
-    pointer-events: none;
-  }
-  .scrollFade--visible {
-    opacity: 1;
-    pointer-events: all;
-  }
-  .scrollFade--animate {
-    transition: opacity 0.4s ease-in-out;
-  }
+}
+.scrollFade--hidden {
+opacity: 0;
+pointer-events: none;
+}
+.scrollFade--visible {
+opacity: 1;
+pointer-events: all;
+}
+.scrollFade--animate {
+transition: opacity 0.4s ease-in-out;
+}
 
 
 
@@ -97,7 +97,7 @@ body {
     color: #1C3A52;
     text-decoration: none;
     /* margin-right: 40%; */
-    margin-right: 40vw;
+    margin-right: 20vw;
     /* background-color: #FDFBF7; */
     
 }
@@ -171,6 +171,73 @@ body {
     width: 100vw;
 }
 
+.nav-item {
+    left: 42vw;
+}
+
+div.dropdown {
+    width: fit-content;
+    /* margin-left: 90vw; */
+   /* right: 100px; */
+   left: 80vw;
+   /* margin-left: 5rem; */
+   top: -5vh;
+   display: none;
+   font-size: 500px;
+}
+
+#dropdownMenu {
+    font-size: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    color: #1C3A52;
+    width: fit-content;
+    background-color: #FDFBF7;
+    border: none;
+    /* margin-left: 5rem; */
+}
+
+div.dropdown ul {
+    background-color: #FDFBF7;
+    border: none;
+    /* margin-left: 5rem; */
+    
+}
+div.dropdown ul li a{
+    margin-bottom: 0.5vh;
+    font-size: 3vw;
+    border: 1px solid red;
+    text-align: center;
+}
+div.dropdown ul li {
+    width: fit-content;
+    /* font-size: 500px; */
+}
+
+.dropdown-menu:focus {
+    border:#1C3A52;
+}
+
+
+.dropdown-menu {
+    border: 1px solid red;
+    width: fit-content;
+    overflow-x: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FDFBF7;
+    border: none;
+}
+
+.dropdown-item {
+    width: fit-content;
+}
+
+.navbar-brand > ul {
+    background-color: #FDFBF7;
+    z-index: 1001;
+    width: 100px;
+}
+
 @media(max-width: 1250px) {
     .navbar-brand #ll_logo {
         margin-right: auto;
@@ -179,12 +246,16 @@ body {
         
     }
 
-    .navbar-brand #ll_logo + .btn, .navbar-brand #ll_logo + .btn + .btn, .navbar-brand #ll_logo + .btn + .btn + .btn {
+    .navbar-brand #ll_logo + .btn, .navbar-brand #ll_logo + .btn + .btn, .navbar-brand #ll_logo + .btn + .btn + .btn, 
+    .navbar-brand #ll_logo + .btn + .btn + .btn + .btn, .navbar-brand #ll_logo + .btn + .btn + .btn + .btn + .btn {
         display: none;
+    }
+    div.dropdown {
+        display:flex;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) { /*was 500px*/
     .navbar-brand #ll_logo {
         margin-right: auto;
         margin-left: auto;
@@ -196,6 +267,10 @@ body {
     .navbar-brand #ll_logo img {
         width: 2rem;
         height: 2rem;
+    }
+
+    div.dropdown {
+        left: 78vw;
     }
 }
 
