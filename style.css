@@ -95,7 +95,7 @@ body {
     color: #1C3A52;
     text-decoration: none;
     /* margin-right: 40%; */
-    margin-right: 40vw;
+    margin-right: 5vw;
     /* background-color: #FDFBF7; */
     
 }
@@ -104,12 +104,12 @@ body {
     color: #4795D1
 }
 
-.navbar-brand #ll_logo ~ a {
+/* .navbar-brand #ll_logo ~ a {
     margin-right: 1rem;
-    /* border: 1px solid red; */
-    /* bottom: 1rem; */
+    border: 1px solid red;
+    bottom: 1rem;
     justify-content: right;
-}
+} */
 
 
 .navbar-brand #ll_logo img {
@@ -120,33 +120,42 @@ body {
     margin-top: 0.5rem;
 }
 
-.navbar-brand .btn-dark {
+.buttons .btn-dark {
     font-family: 'Quicksand', sans-serif;
     font-size: 1vw;
     background-color: #1C3A52;
     color: #FDFBF7;
+    width: fit-content;
+    min-width: 50px;
 }
 
-.navbar-brand .btn-dark:hover {
+.buttons .btn-dark:hover {
     background-color: #36719E;
     border-color: #36719E;
     /* font-size: 85%; */
     font-size: 1.1vw;
     /* color: #1C3A52; */
+    /* width: fit-content; */
+    min-width: 50px;
 }
 
-.navbar-brand .btn-light {
+.buttons .btn-light {
     font-family: 'Quicksand', sans-serif;
     font-size: 1vw;
     background-color:#36719E;
     color:#FDFBF7;
+    width: fit-content;
+    min-width: 50px;
+    font-size: fit-content;
 }
 
-.navbar-brand .btn-light:hover {
+.buttons .btn-light:hover {
     background-color:#4795D1;
     font-size: 1.1vw;
     border-color: #4795D1;
     color:#FDFBF7;
+    /* width: fit-content; */
+    min-width: 50px;
     /* text-decoration:underline dotted 0.1px; */
     /* font-size: 85%; */
     /* color: #1C3A52; */
@@ -162,17 +171,137 @@ body {
     border-color: #36719E;
 } */
 
-.navbar-brand div {
+.navbar-brand .navbar_brand {
     /* border: 1px solid red; */
     margin-left: 0rem;
     margin-right: 0rem;
     width: 100vw;
 }
 
+
+
+.nav-item {
+    left: 42vw;
+}
+
+.buttons {
+    width: fit-content;
+    margin-right: 0rem;
+    margin-left: 35vw;
+    display: inline-block;
+}
+
+/* .buttons a {
+    width: fit-content;
+    min-width: 50px;
+} */
+
+
+
+
+
+div.dropdown {
+    width: fit-content;
+    /* margin-left: 90vw; */
+   /* right: 100px; */
+   left: 80vw;
+   /* margin-left: 5rem; */
+   top: -5vh;
+   display: none;
+   font-size: 500px;
+}
+
+#dropdownMenu {
+    font-size: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    color: #1C3A52;
+    width: fit-content;
+    background-color: #FDFBF7;
+    border: none;
+    /* margin-left: 5rem; */
+}
+
+div.dropdown ul {
+    background-color: #FDFBF7;
+    border: none;
+    /* margin-left: 5rem; */
+    
+}
+div.dropdown ul li a{
+    margin-bottom: 0.5vh;
+    font-size: 3vw;
+    border: 1px solid red;
+    text-align: center;
+}
+div.dropdown ul li {
+    width: fit-content;
+    /* font-size: 500px; */
+}
+
+.dropdown-menu:focus {
+    border:#1C3A52;
+}
+
+
+.dropdown-menu {
+    border: 1px solid red;
+    width: fit-content;
+    overflow-x: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FDFBF7;
+    border: none;
+}
+
+.dropdown-item {
+    width: fit-content;
+}
+
+
+
+
+
+
+.navbar-brand > ul {
+    background-color: #FDFBF7;
+    z-index: 1001;
+    width: 100px;
+}
+
+@media(max-width: 1350px) {
+    .buttons {
+        margin-left: 25vw;
+    }
+}
+
+@media(max-width: 1070px) {
+    .buttons {
+        margin-left: 15vw;
+    }
+}
+
+@media(max-width: 901px) {
+    .buttons {
+        margin-left: 5vw;
+    }
+    
+}
+
+/* @media(max-width: 774px) {
+    .buttons {
+        margin-left: 0vw;
+    }
+
+    #ll_logo {
+        margin-right: 0vw;
+    }
+} */
+
+
 @media(max-width: 1250px) {
     .navbar-brand #ll_logo {
-        margin-right: auto;
-        margin-left: auto;
+        /* margin-right: auto;
+        margin-left: auto; */
 
         
     }
@@ -182,13 +311,33 @@ body {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 774px) { /*was 700px, 500px*/
     .navbar-brand #ll_logo {
         margin-right: auto;
         margin-left: auto;
         font-size: 150%;
 
         
+    }
+
+    div.navbar {
+        margin-bottom: 10vh;
+    }
+
+    .buttons .btn-dark, .buttons .btn-light {
+        font-size: 10px;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    .buttons .btn-dark:hover, .buttons .btn-light:hover {
+        font-size: 11px;
+    }
+
+    .buttons {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2vh;
     }
 
     .navbar-brand #ll_logo img {
@@ -383,7 +532,7 @@ body {
         /* margin-bottom: 10vh; */
         /* font-weight: 400; */
         font-size: 9vw;
-        padding-top: 3vh;
+        padding-top: 7vh;
     }
     .container-fluid {
         padding-bottom: 12vh;
