@@ -5,6 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&family=Quicksand:wght@600&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+/* * {
+    border: 1px solid red;
+} */
+
+
 html {
     /* background-color: #FDFBF7; */
     /* width: 100%; */
@@ -52,53 +57,27 @@ transition: opacity 0.4s ease-in-out;
 
 /* HEADER SECTION */
 
-/* .page-header {
-    position: fixed;
-} */
-
-
-.navbar .fixed-top {
+/* .navbar .fixed-top {
     background: rgba(253, 251, 247, 0.94);
-    /* background-color:#8BB7D9; */
     opacity: .94;
     margin-top: 0rem;
-    /* border-bottom: 0.5px groove #1C3A52; */
-    /* border-style: groove; */
 }
 
 .navbar-brand {
-    /* margin-right: 1rem; */
-    /* margin-left: 1rem; */
-    /* background-color: #FDFBF7; */
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: left; */
-    /* border: 1px solid red; */
     width: 100%;
     height: 5rem;
 }
 
-
-
-/* .navbar h1 {
-    text-align: center;
-    width: 100%;
-    width: 20rem;
-    font-family: 'Quicksand', sans-serif;
-    border: 1px solid red;
-} */
-
 .navbar-brand #ll_logo {
     font-family: 'Quicksand', sans-serif;
-    /* width: 20rem; */
     width: 10vw;
     font-size: 200%;
     font-weight: 500;
     color: #1C3A52;
     text-decoration: none;
-    /* margin-right: 40%; */
     margin-right: 0vw;
-    /* background-color: #FDFBF7; */
     
 }
 
@@ -108,8 +87,6 @@ transition: opacity 0.4s ease-in-out;
 
 .navbar-brand #ll_logo ~ a {
     margin-right: 1rem;
-    /* border: 1px solid red; */
-    /* bottom: 1rem; */
     justify-content: right;
 }
 
@@ -132,9 +109,7 @@ transition: opacity 0.4s ease-in-out;
 .navbar-brand .btn-dark:hover {
     background-color: #36719E;
     border-color: #36719E;
-    /* font-size: 85%; */
     font-size: 1.1vw;
-    /* color: #1C3A52; */
 }
 
 .navbar-brand .btn-light {
@@ -149,23 +124,10 @@ transition: opacity 0.4s ease-in-out;
     font-size: 1.1vw;
     border-color: #4795D1;
     color:#FDFBF7;
-    /* text-decoration:underline dotted 0.1px; */
-    /* font-size: 85%; */
-    /* color: #1C3A52; */
+    
 }
-
-/* .navbar-brand #contact_us_button {
-    background-color: #8BB7D9;
-    border-color: #8BB7D9;
-}
-
-.navbar-brand #contact_us_button:hover {
-    background-color: #36719E;
-    border-color: #36719E;
-} */
 
 .navbar-brand div {
-    /* border: 1px solid red; */
     margin-left: 0rem;
     margin-right: 0rem;
     width: 100vw;
@@ -200,7 +162,14 @@ transition: opacity 0.4s ease-in-out;
         margin-left: 0vw;
     }
     
-}
+} */
+
+/* div#navigation-bar {
+    width: 100vw;
+} */
+
+
+
 
 
 
@@ -266,11 +235,11 @@ div.dropdown ul li {
 
 
 
-.navbar-brand > ul {
+/* .navbar-brand > ul {
     background-color: #FDFBF7;
     z-index: 1001;
     width: 100px;
-}
+} */
 
 @media(max-width: 1250px) {
     .navbar-brand #ll_logo {
