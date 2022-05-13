@@ -929,8 +929,18 @@ div.dropdown ul li {
     margin-right: 0rem;
 }
 
+#group_founders .row .card {
+    border: none;
+    padding-bottom: 10vh;
+}
 
-#group_founders .row img {
+#group_founders .row p span {
+    font-weight:900;
+    color:#36719E;
+}
+
+
+/* #group_founders .row img {
     width: 100%;
     height: inherit;
     min-width: 100pt;
@@ -939,7 +949,7 @@ div.dropdown ul li {
 
 #group_founders .row .col-sm-3 {
     margin-left: 0rem;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     padding-right: 1rem;
 }
 
@@ -948,11 +958,11 @@ div.dropdown ul li {
     font-size: 270%;
     color:#1C3A52;
     padding-bottom: 2rem;
-}
+} */
 
 /* founder descriptions */
 
-#group_founders .row .col-sm-5 {
+/* #group_founders .row .col-sm-5 {
     margin: 3.5%;
     text-align: justify;
     text-justify: inter-word;
@@ -965,9 +975,9 @@ div.dropdown ul li {
 #group_founders .row .col-sm-5 p span {
     font-weight:900;
     color:#36719E;
-}
+} */
 
-@media(max-width: 800pt) {
+/* @media(max-width: 800pt) {
     #group_founders .row .col-sm-3 h2 {
         font-size: 200%;
     }
@@ -977,7 +987,7 @@ div.dropdown ul li {
         padding-right: auto;
         width:fit-content;
     }
-}
+} */
 
 /* Who We Are Section */
 
