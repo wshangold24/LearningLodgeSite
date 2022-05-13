@@ -44,7 +44,7 @@
 }
 
 #ll_logo:hover {
-    color: #4795D1
+    color: #4795D1;
 }
 
 
@@ -53,14 +53,65 @@
     font-size: 120%;
 }
 
-#navbarButtons .navbar-nav .nav-item a:hover {
+#navbarButtons .navbar-nav .nav-item .nav-link:hover {
     color:#4795D1;
 }
+
+
+
+.underline-links a {position: relative; display: inline-block;} /*Source for underline animation: https://help.semplice.com/hc/en-us/articles/360038670132-Add-an-animated-underline-hover-effect-to-text-links*/
+
+.underline-links a::before {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #4795D1;
+    height: 2px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.underline-links a:hover:before {right: 0 !important;}
+
+
+
+.underline-links-same a {position: relative; display: inline-block;} /*Source for underline animation: https://help.semplice.com/hc/en-us/articles/360038670132-Add-an-animated-underline-hover-effect-to-text-links*/
+
+.underline-links-same a::before {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #36719E;
+    height: 2px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.underline-links-same a:hover:before {right: 0 !important;}
+
+
 
 
 @media (max-width: 404px) {
     .navbar-toggler {
         margin-left: auto;
         margin-right: auto;
+    }
+    .container-fluid .jumbotron h1 {
+        padding-top: 10vh;
     }
 }

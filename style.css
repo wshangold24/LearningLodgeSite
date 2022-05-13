@@ -11,7 +11,7 @@
 
 
 html {
-    /* background-color: #FDFBF7; */
+    background-color: #FDFBF7;
     /* width: 100%; */
     overflow-x:hidden;
 }
@@ -511,7 +511,7 @@ div.dropdown ul li {
 .container-2 img {
     /* height: 35rem; */
     /* width: 50rem; */
-    width: 70vw;
+    width: 80vw;
     height: inherit;
     margin-left: auto;
     margin-right: auto;
@@ -628,7 +628,7 @@ div.dropdown ul li {
         display: none;
     }
     .container-4 .row {
-        margin-bottom: 4rem;
+        padding-bottom: 4rem;
     }
 
     .container-4 {
@@ -920,7 +920,8 @@ div.dropdown ul li {
     background-color: #FDFBF7;
     /* margin-top: 10rem; */
     padding-top: 10rem;
-    font-size: 400%;
+    padding-bottom: 10rem;
+    font-size: 500%;
     text-align: center;
     width: 100%;
     color:#4795D1;
