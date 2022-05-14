@@ -1305,11 +1305,12 @@ div.dropdown ul li {
     margin-right: auto;
 }
 
-#news_list h1 + h2 + h3 {
+#news_list h2 + h3 {
     color:#36719E;
     padding-bottom: 3rem;
-    font-size: 1.5vw;
-    width: 80vw;
+    font-size: 1.0vw;
+    /* width: 80vw; */
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
