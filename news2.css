@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/* * {
+    border: 1px solid red;
+} */
+
+#partners-list {
+    height: 10vh;
+    border: 1px solid red;
+    background-color: #344552;
+}
+
+#news-list {
+    height: fit-content;
+    border: 1px solid red;
+}
+
+#record-label {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 400%;
+    color: #3d3d3d;
+    text-align: center;
+    width: fit-content;
+}
+
+#record-label span {
+    font-weight: 700;
+}
+
+#news-list .card {
+    background-color: #FDFBF7;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 0.5px solid #344552;
+    padding-bottom: 7vh;
+    padding-top: 7vh;
+}
+
+#record .card-text, #kmov .card-text {
+    /* color:#344552; */
+    color:#36719E;
+    text-decoration: none;
+
+    
+}
+
+.card-body a.card-text {
+    border: 1px solid red;
+    width: 100rem;
+}
+
+#record .card-text, #record .card-title, #kmov .card-text , #kmov .card-title  {
+    text-align: left;
+}
